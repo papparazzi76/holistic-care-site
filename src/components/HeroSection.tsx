@@ -2,30 +2,19 @@ import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 import { Award } from "lucide-react";
 import heroImage from "@/assets/hero-massage.jpg";
-
 export const HeroSection = () => {
   const [scrollY, setScrollY] = useState(0);
-
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  return (
-    <section className="relative min-h-screen overflow-hidden">
+  return <section className="relative min-h-screen overflow-hidden">
       {/* Parallax Background */}
-      <div 
-        className="absolute inset-0 w-full h-[120%]"
-        style={{
-          transform: `translateY(${scrollY * 0.5}px)`,
-        }}
-      >
-        <img 
-          src={heroImage} 
-          alt="Sesión de masaje terapéutico en ambiente natural" 
-          className="w-full h-full object-cover"
-        />
+      <div className="absolute inset-0 w-full h-[120%]" style={{
+      transform: `translateY(${scrollY * 0.5}px)`
+    }}>
+        <img src={heroImage} alt="Sesión de masaje terapéutico en ambiente natural" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60" />
       </div>
 
@@ -46,17 +35,10 @@ export const HeroSection = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-6 pt-8">
-                <Button 
-                  size="lg" 
-                  className="btn-primary text-xl px-12 py-8 rounded-full shadow-glow hover:shadow-natural transition-smooth text-primary-foreground"
-                >
+                <Button size="lg" className="btn-primary text-xl px-12 py-8 rounded-full shadow-glow hover:shadow-natural transition-smooth text-primary-foreground">
                   Reserva tu Sesión
                 </Button>
-                <Button 
-                  variant="outline" 
-                  size="lg"
-                  className="text-xl px-12 py-8 rounded-full border-2 border-white/30 text-white hover:bg-white/10 backdrop-blur-sm transition-smooth"
-                >
+                <Button variant="outline" size="lg" className="text-xl px-12 py-8 rounded-full border-2 border-white/30 hover:bg-white/10 backdrop-blur-sm transition-smooth text-slate-50">
                   Conoce Nuestros Servicios
                 </Button>
               </div>
@@ -101,6 +83,5 @@ export const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
