@@ -4,20 +4,21 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
+import { MapPin, Phone, Mail, Gift } from "lucide-react";
 
 const contactInfo = [
   {
-    icon: "📍",
+    icon: MapPin,
     title: "Ubicación",
     details: ["Calle Bienestar 123", "28001 Madrid", "España"]
   },
   {
-    icon: "📞",
+    icon: Phone,
     title: "Teléfono",
     details: ["+34 600 123 456", "Lun-Vie: 9:00-20:00", "Sáb: 10:00-15:00"]
   },
   {
-    icon: "✉️",
+    icon: Mail,
     title: "Email",
     details: ["info@bienestarnatural.es", "Respuesta en 24h", "Consultas gratuitas"]
   }
@@ -41,9 +42,11 @@ export const ContactSection = () => {
           <div className="grid gap-6">
             {contactInfo.map((info, index) => (
               <Card key={index} className="border-0 bg-card/80 backdrop-blur-sm hover:shadow-natural transition-smooth">
-                <CardHeader className="pb-3">
+                 <CardHeader className="pb-3">
                   <CardTitle className="flex items-center text-lg">
-                    <span className="text-2xl mr-3">{info.icon}</span>
+                    <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center mr-3">
+                      <info.icon className="text-primary w-5 h-5" />
+                    </div>
                     {info.title}
                   </CardTitle>
                 </CardHeader>
@@ -61,7 +64,9 @@ export const ContactSection = () => {
           <Card className="border-0 bg-primary/5 backdrop-blur-sm">
             <CardContent className="p-6">
               <div className="flex items-center space-x-4">
-                <div className="text-3xl">🎁</div>
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                  <Gift className="text-primary w-6 h-6" />
+                </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Primera Consulta Gratuita</h3>
                   <p className="text-sm text-muted-foreground">

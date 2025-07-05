@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
+import { Award } from "lucide-react";
 import heroImage from "@/assets/hero-massage.jpg";
 
 export const HeroSection = () => {
@@ -81,7 +82,7 @@ export const HeroSection = () => {
           <div className="absolute bottom-8 right-8 bg-white/95 backdrop-blur-sm p-8 rounded-3xl shadow-glow max-w-sm">
             <div className="flex items-center space-x-6">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
-                <span className="text-primary text-3xl">🌿</span>
+                <Award className="text-primary w-8 h-8" />
               </div>
               <div>
                 <div className="font-semibold text-foreground text-lg">Certificado Profesional</div>

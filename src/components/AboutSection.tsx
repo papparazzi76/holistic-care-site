@@ -1,6 +1,7 @@
 import { Section } from "@/components/ui/section";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Heart, Sprout, Target } from "lucide-react";
 import therapistImage from "@/assets/therapist-portrait.jpg";
 
 const certifications = [
@@ -12,17 +13,17 @@ const certifications = [
 
 const values = [
   {
-    icon: "💚",
+    icon: Heart,
     title: "Cuidado Personalizado",
     description: "Cada sesión se adapta completamente a tus necesidades específicas y objetivos personales."
   },
   {
-    icon: "🌱",
+    icon: Sprout,
     title: "Métodos Naturales",
     description: "Priorizamos técnicas naturales y holísticas que respetan los procesos de sanación del cuerpo."
   },
   {
-    icon: "🎯",
+    icon: Target,
     title: "Resultados Duraderos",
     description: "Nuestro enfoque se centra en soluciones a largo plazo, no solo en alivio temporal."
   }
@@ -92,7 +93,9 @@ export const AboutSection = () => {
             {values.map((value, index) => (
               <Card key={index} className="border-0 bg-muted/50 hover:bg-muted/70 transition-smooth">
                 <CardContent className="p-4 flex items-start space-x-4">
-                  <div className="text-2xl">{value.icon}</div>
+                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                    <value.icon className="text-primary w-6 h-6" />
+                  </div>
                   <div className="space-y-1">
                     <h4 className="font-semibold text-foreground">{value.title}</h4>
                     <p className="text-sm text-muted-foreground leading-relaxed">

@@ -1,45 +1,46 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Section } from "@/components/ui/section";
 import { Button } from "@/components/ui/button";
+import { Hand, Waves, Activity, Users, Leaf, Target } from "lucide-react";
 
 const services = [
   {
-    icon: "🤲",
+    icon: Hand,
     title: "Quiromasaje Terapéutico",
     description: "Técnicas manuales especializadas para aliviar tensiones musculares y articulares, restaurando el equilibrio natural de tu cuerpo.",
     benefits: ["Alivia dolores", "Mejora movilidad", "Reduce estrés"],
     duration: "60-90 min"
   },
   {
-    icon: "🌊",
+    icon: Waves,
     title: "Masajes Relajantes",
     description: "Experiencia de relajación profunda que combina aromaterapia y técnicas suaves para renovar cuerpo y mente.",
     benefits: ["Relajación total", "Mejora circulación", "Bienestar mental"],
     duration: "60 min"
   },
   {
-    icon: "🧘‍♀️",
+    icon: Activity,
     title: "Pilates Terapéutico",
     description: "Método personalizado que fortalece el core, mejora la postura y aumenta la flexibilidad de forma segura y efectiva.",
     benefits: ["Fortalece core", "Mejora postura", "Aumenta flexibilidad"],
     duration: "55 min"
   },
   {
-    icon: "👥",
+    icon: Users,
     title: "Pilates para Mayores",
     description: "Programa adaptado especialmente para adultos mayores, enfocado en mantener la movilidad y independencia funcional.",
     benefits: ["Mantiene movilidad", "Previene caídas", "Socialización"],
     duration: "45 min"
   },
   {
-    icon: "🌿",
+    icon: Leaf,
     title: "Asesoría Natural",
     description: "Consultoría personalizada en métodos naturales de cuidado personal y técnicas de autocuidado para el hogar.",
     benefits: ["Métodos naturales", "Cuidado integral", "Prevención"],
     duration: "30 min"
   },
   {
-    icon: "🎯",
+    icon: Target,
     title: "Planes Personalizados",
     description: "Combinación de servicios diseñada específicamente para tus necesidades y objetivos de bienestar personal.",
     benefits: ["100% personalizado", "Seguimiento continuo", "Resultados medibles"],
@@ -64,7 +65,9 @@ export const ServicesSection = () => {
         {services.map((service, index) => (
           <Card key={index} className="service-card border-0 bg-card/80 backdrop-blur-sm">
             <CardHeader className="text-center pb-4">
-              <div className="text-4xl mb-4">{service.icon}</div>
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <service.icon className="text-primary w-8 h-8" />
+              </div>
               <CardTitle className="text-xl font-serif mb-2">{service.title}</CardTitle>
               <div className="text-sm text-accent font-medium bg-accent/10 px-3 py-1 rounded-full inline-block">
                 {service.duration}
