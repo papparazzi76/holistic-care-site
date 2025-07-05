@@ -38,7 +38,7 @@ export const HeroSection = () => {
                 <Button size="lg" className="btn-primary text-xl px-12 py-8 rounded-full shadow-glow hover:shadow-natural transition-smooth text-primary-foreground">
                   Reserva tu Sesión
                 </Button>
-                <Button variant="outline" size="lg" className="text-xl px-12 py-8 rounded-full border-2 border-white/30 hover:bg-white/10 backdrop-blur-sm transition-smooth text-slate-50">
+                <Button variant="outline" size="lg" className="text-xl px-12 py-8 rounded-full border-2 border-primary/30 hover:bg-primary/10 backdrop-blur-sm transition-smooth text-primary-glow">
                   Conoce Nuestros Servicios
                 </Button>
               </div>
