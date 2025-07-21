@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 import { Award } from "lucide-react";
-import heroImage from "@/assets/hero-massage.jpg";
+const heroImage = "/lovable-uploads/4eabfea8-4026-41ed-81bc-b28b37a63549.png";
 export const HeroSection = () => {
   const [scrollY, setScrollY] = useState(0);
   useEffect(() => {
