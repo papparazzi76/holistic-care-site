@@ -68,7 +68,7 @@ export const ServicesSection = () => {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <service.icon className="text-primary w-8 h-8" />
               </div>
-              <CardTitle as="h3" className="text-xl font-serif mb-2">{service.title}</CardTitle>
+              <CardTitle className="text-xl font-serif mb-2">{service.title}</CardTitle>
               <div className="text-sm text-accent font-medium bg-accent/10 px-3 py-1 rounded-full inline-block">
                 {service.duration}
               </div>
