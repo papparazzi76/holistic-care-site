@@ -29,7 +29,7 @@ export const ContactSection = () => {
     <Section className="bg-muted/30">
       <div className="text-center mb-16">
         <h2 className="text-4xl lg:text-5xl font-serif font-bold text-foreground mb-6">
-          Contacto y Reservas
+          Contacta y Reserva tu Cita en Madrid
         </h2>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
           ¿Listo para comenzar tu camino hacia el bienestar? Contáctanos para una consulta 
