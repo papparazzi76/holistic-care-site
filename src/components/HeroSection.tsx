@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 import { Award } from "lucide-react";
 const heroImage = "/lovable-uploads/4eabfea8-4026-41ed-81bc-b28b37a63549.png";
+
 export const HeroSection = () => {
   const [scrollY, setScrollY] = useState(0);
   useEffect(() => {
@@ -25,8 +26,8 @@ export const HeroSection = () => {
             <div className="space-y-8">
               <div className="space-y-6">
                 <h1 className="text-6xl lg:text-8xl font-serif font-bold text-white leading-tight">
-                  Bienestar Natural
-                  <span className="block text-primary-glow">Para Tu Cuerpo</span>
+                  Bienestar Natural en Madrid:
+                  <span className="block text-primary-glow">Quiromasaje y Pilates</span>
                 </h1>
                 <p className="text-2xl lg:text-3xl text-white/90 leading-relaxed max-w-3xl">
                   Descubre el equilibrio perfecto entre tradición y técnicas modernas. 
