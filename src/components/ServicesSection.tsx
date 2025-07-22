@@ -53,7 +53,7 @@ export const ServicesSection = () => {
     <Section className="bg-muted/30">
       <div className="text-center mb-16">
         <h2 className="text-4xl lg:text-5xl font-serif font-bold text-foreground mb-6">
-          Nuestros Servicios
+          Nuestros Servicios de Bienestar y Terapias Naturales
         </h2>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
           Cada servicio está diseñado para ofrecerte una experiencia única de bienestar, 
@@ -68,7 +68,7 @@ export const ServicesSection = () => {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <service.icon className="text-primary w-8 h-8" />
               </div>
-              <CardTitle className="text-xl font-serif mb-2">{service.title}</CardTitle>
+              <CardTitle as="h3" className="text-xl font-serif mb-2">{service.title}</CardTitle>
               <div className="text-sm text-accent font-medium bg-accent/10 px-3 py-1 rounded-full inline-block">
                 {service.duration}
               </div>
