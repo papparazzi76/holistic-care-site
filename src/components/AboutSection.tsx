@@ -36,7 +36,7 @@ export const AboutSection = () => {
         <div className="space-y-8">
           <div className="space-y-4">
             <h2 className="text-4xl lg:text-5xl font-serif font-bold text-foreground">
-              Sobre Mí
+              Sobre Mí: 15 Años de Experiencia en Terapias Naturales
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
               Con más de 15 años de experiencia en el mundo del bienestar y las terapias naturales, 
@@ -78,7 +78,7 @@ export const AboutSection = () => {
           <div className="relative">
             <img 
               src={therapistImage} 
-              alt="Terapeuta profesional especializada en bienestar" 
+              alt="Terapeuta experta en quiromasaje y pilates en Madrid" 
               className="w-full h-[500px] object-cover rounded-3xl shadow-card"
             />
             <div className="absolute -bottom-4 -right-4 bg-primary text-primary-foreground p-4 rounded-2xl shadow-glow">
