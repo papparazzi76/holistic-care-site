@@ -10,7 +10,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Ubicación",
-    details: ["Calle Bienestar 123", "28001 Madrid", "España"]
+    details: ["Valladolid", "España"]
   },
   {
     icon: Phone,
@@ -20,7 +20,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    details: ["info@bienestarnatural.es", "Respuesta en 24h", "Consultas gratuitas"]
+    details: ["info@soloporhoy.es", "Respuesta en 24h", "Consultas gratuitas"]
   }
 ];
 
@@ -29,7 +29,7 @@ export const ContactSection = () => {
     <Section className="bg-muted/30">
       <div className="text-center mb-16">
         <h2 className="text-4xl lg:text-5xl font-serif font-bold text-foreground mb-6">
-          Contacta y Reserva tu Cita en Madrid
+          Contacta y Reserva tu Cita
         </h2>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
           ¿Listo para comenzar tu camino hacia el bienestar? Contáctanos para una consulta 
