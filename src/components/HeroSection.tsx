@@ -25,51 +25,51 @@ export const HeroSection = () => {
           <div className="max-w-4xl">
             <div className="space-y-8">
               <div className="space-y-6">
-                <h1 className="text-6xl lg:text-8xl font-serif font-bold text-white leading-tight">
+                <h1 className="text-4xl sm:text-5xl lg:text-8xl font-serif font-bold text-white leading-tight">
                   Bienestar Natural
                   <span className="block text-primary-glow">Para Tu Cuerpo</span>
                 </h1>
-                <p className="text-2xl lg:text-3xl text-white/90 leading-relaxed max-w-3xl">
+                <p className="text-lg sm:text-xl lg:text-3xl text-white/90 leading-relaxed max-w-3xl">
                   Descubre el equilibrio perfecto entre tradición y técnicas modernas. 
                   Quiromasaje, terapias naturales y pilates especializado para tu bienestar integral.
                 </p>
               </div>
               
-              <div className="flex flex-col sm:flex-row gap-6 pt-8">
-                <Button size="lg" className="btn-primary text-xl px-12 py-8 rounded-full shadow-glow hover:shadow-natural transition-smooth text-primary-foreground">
+              <div className="flex flex-col sm:flex-row gap-4 pt-6">
+                <Button size="lg" className="btn-primary text-lg sm:text-xl px-8 sm:px-12 py-6 sm:py-8 rounded-full shadow-glow hover:shadow-natural transition-smooth text-primary-foreground">
                   Reserva tu Sesión
                 </Button>
-                <Button variant="outline" size="lg" className="text-xl px-12 py-8 rounded-full border-2 border-primary/30 hover:bg-primary/10 backdrop-blur-sm transition-smooth text-primary-glow">
+                <Button variant="outline" size="lg" className="text-lg sm:text-xl px-8 sm:px-12 py-6 sm:py-8 rounded-full border-2 border-primary/30 hover:bg-primary/10 backdrop-blur-sm transition-smooth text-primary-glow">
                   Conoce Nuestros Servicios
                 </Button>
               </div>
               
-              <div className="flex items-center space-x-12 pt-12">
+              <div className="flex items-center justify-center sm:justify-start space-x-6 sm:space-x-12 pt-8 sm:pt-12">
                 <div className="text-center">
-                  <div className="text-4xl lg:text-5xl font-bold text-primary-glow">15+</div>
-                  <div className="text-lg text-white/80">Años de Experiencia</div>
+                  <div className="text-2xl sm:text-3xl lg:text-5xl font-bold text-primary-glow">15+</div>
+                  <div className="text-sm sm:text-base lg:text-lg text-white/80">Años de Experiencia</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl lg:text-5xl font-bold text-primary-glow">500+</div>
-                  <div className="text-lg text-white/80">Clientes Satisfechos</div>
+                  <div className="text-2xl sm:text-3xl lg:text-5xl font-bold text-primary-glow">500+</div>
+                  <div className="text-sm sm:text-base lg:text-lg text-white/80">Clientes Satisfechos</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl lg:text-5xl font-bold text-primary-glow">100%</div>
-                  <div className="text-lg text-white/80">Natural</div>
+                  <div className="text-2xl sm:text-3xl lg:text-5xl font-bold text-primary-glow">100%</div>
+                  <div className="text-sm sm:text-base lg:text-lg text-white/80">Natural</div>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Floating Certification Card */}
-          <div className="absolute bottom-8 right-8 bg-white/95 backdrop-blur-sm p-8 rounded-3xl shadow-glow max-w-sm">
-            <div className="flex items-center space-x-6">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
-                <Award className="text-primary w-8 h-8" />
+          <div className="hidden sm:block absolute bottom-8 right-8 bg-white/95 backdrop-blur-sm p-6 lg:p-8 rounded-3xl shadow-glow max-w-sm">
+            <div className="flex items-center space-x-4 lg:space-x-6">
+              <div className="w-12 h-12 lg:w-16 lg:h-16 bg-primary/10 rounded-full flex items-center justify-center">
+                <Award className="text-primary w-6 h-6 lg:w-8 lg:h-8" />
               </div>
               <div>
-                <div className="font-semibold text-foreground text-lg">Certificado Profesional</div>
-                <div className="text-muted-foreground">Terapias Naturales</div>
+                <div className="font-semibold text-foreground text-base lg:text-lg">Certificado Profesional</div>
+                <div className="text-muted-foreground text-sm">Terapias Naturales</div>
               </div>
             </div>
           </div>
