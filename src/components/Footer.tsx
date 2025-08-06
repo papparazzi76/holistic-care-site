@@ -39,9 +39,9 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-semibold">Contacto</h4>
             <div className="space-y-2 text-sm text-background/80">
-              <p>📍 Calle Bienestar 123<br />28001 Madrid, España</p>
+              <p>📍 Valladolid, España</p>
               <p>📞 +34 600 123 456</p>
-              <p>✉️ info@bienestarnatural.es</p>
+              <p>✉️ info@soloporhoy.es</p>
               <p className="text-xs mt-4">
                 Lun-Vie: 9:00-20:00<br />
                 Sáb: 10:00-15:00
