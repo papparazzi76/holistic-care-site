@@ -52,7 +52,7 @@ const Footer = () => {
         
         <div className="border-t border-background/20 mt-8 pt-8 text-center">
           <p className="text-sm text-background/60">
-            © 2024 Bienestar Natural. Todos los derechos reservados. 
+            © 2024 Solo por hoy. Todos los derechos reservados. 
             <span className="mx-2">|</span>
             <a href="#" className="hover:text-background transition-smooth">Política de Privacidad</a>
             <span className="mx-2">|</span>
