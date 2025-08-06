@@ -26,8 +26,8 @@ export const HeroSection = () => {
             <div className="space-y-8">
               <div className="space-y-6">
                 <h1 className="text-6xl lg:text-8xl font-serif font-bold text-white leading-tight">
-                  Bienestar Natural en Madrid:
-                  <span className="block text-primary-glow">Quiromasaje y Pilates</span>
+                  Bienestar Natural
+                  <span className="block text-primary-glow">Para Tu Cuerpo</span>
                 </h1>
                 <p className="text-2xl lg:text-3xl text-white/90 leading-relaxed max-w-3xl">
                   Descubre el equilibrio perfecto entre tradición y técnicas modernas. 
