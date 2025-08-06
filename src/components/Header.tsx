@@ -7,9 +7,11 @@ export const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="text-2xl font-bold text-primary">
-              SOLOPORHOY
-            </div>
+            <img 
+              src="/lovable-uploads/73176c96-6ab7-4353-91f1-ca8269c05514.png" 
+              alt="SOLOPORHOY" 
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Navigation Menu */}
