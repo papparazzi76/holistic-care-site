@@ -10,7 +10,7 @@ export const Header = () => {
             <img 
               src="/lovable-uploads/73176c96-6ab7-4353-91f1-ca8269c05514.png" 
               alt="SOLOPORHOY" 
-              className="h-12 w-auto"
+              className="h-24 w-auto"
             />
           </div>
 
