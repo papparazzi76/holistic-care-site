@@ -1,13 +1,18 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
 export const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-28">
           {/* Left spacer for mobile menu */}
           <div className="flex items-center md:hidden">
-            <button className="p-2">
+            <button 
+              className="p-2"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
               </svg>
@@ -44,6 +49,38 @@ export const Header = () => {
           </div>
         </div>
       </div>
+
+      {/* Mobile Navigation Menu */}
+      {isMenuOpen && (
+        <div className="md:hidden bg-white border-t shadow-lg">
+          <nav className="px-4 py-6 space-y-4">
+            <a 
+              href="#servicios" 
+              className="block text-foreground hover:text-primary transition-colors py-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Servicios
+            </a>
+            <a 
+              href="#nosotros" 
+              className="block text-foreground hover:text-primary transition-colors py-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Nosotros
+            </a>
+            <a 
+              href="#contacto" 
+              className="block text-foreground hover:text-primary transition-colors py-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Contacto
+            </a>
+            <Button size="sm" className="w-full mt-4">
+              Reservar Cita
+            </Button>
+          </nav>
+        </div>
+      )}
     </header>
   );
 };

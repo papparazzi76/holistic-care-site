@@ -10,7 +10,7 @@ export const HeroSection = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  return <section className="relative min-h-screen overflow-hidden pt-20">
+  return <section className="relative min-h-screen overflow-hidden pt-28 md:pt-20">
       {/* Parallax Background */}
       <div className="absolute inset-0 w-full h-[120%]" style={{
       transform: `translateY(${scrollY * 0.5}px)`
