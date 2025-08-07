@@ -77,9 +77,9 @@ export const BlogSection = () => {
                 <img 
                   src={post.imageUrl} 
                   alt={post.title}
-                  className="w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-smooth duration-300"
+                  className="w-full h-full object-cover transition-smooth duration-300"
                 />
-                <div className="absolute inset-0 bg-primary/10 group-hover:bg-primary/20 transition-smooth" />
+                <div className="absolute inset-0 bg-primary/5 group-hover:bg-primary/10 transition-smooth" />
               </div>
             </div>
             
