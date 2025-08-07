@@ -16,8 +16,8 @@ interface BlogPost {
 const blogPosts: BlogPost[] = [
   {
     id: "1",
-    title: "Beneficios del Masaje Terapéutico",
-    description: "Descubre cómo el masaje terapéutico puede mejorar tu bienestar físico y mental.",
+    title: "La leptina: el \"interruptor maestro\" del hambre y el metabolismo",
+    description: "¿Sabías que tu hambre y tu metabolismo están controlados por una hormona llamada leptina? Puede que estés comiendo de más… ¡no por gula, sino porque tu cerebro no está recibiendo las señales correctas! En este artículo descubrirás cómo funciona la leptina, por qué puede fallar en personas con obesidad, qué consecuencias tiene tenerla demasiado baja, y cómo puedes mejorar su acción con simples hábitos diarios. Conoce el papel clave de esta \"hormona del hambre\" en tu salud, tu energía y tu peso corporal.",
     imageUrl: "/lovable-uploads/4eabfea8-4026-41ed-81bc-b28b37a63549.png",
     videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     content: "El masaje terapéutico es una práctica ancestral que combina técnicas manuales específicas para aliviar tensiones, mejorar la circulación y promover la relajación profunda. Esta disciplina no solo aporta beneficios físicos, sino que también contribuye significativamente al bienestar mental y emocional. Los estudios científicos han demostrado que el masaje regular puede reducir los niveles de cortisol, la hormona del estrés, mientras aumenta la producción de endorfinas, conocidas como las hormonas de la felicidad."
