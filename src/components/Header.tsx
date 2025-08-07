@@ -22,7 +22,7 @@ export const Header = () => {
           {/* Logo - Centered */}
           <div className="flex items-center justify-center flex-1 md:flex-none">
             <img 
-              src="https://iwzjemetiiiqflomwquh.supabase.co/storage/v1/object/public/images/soloporhoy_transparent.png" 
+              src="https://iwzjemetiiiqflomwquh.supabase.co/storage/v1/object/public/images/logo-solo-por-hoy.png" 
               alt="SOLOPORHOY" 
               className="h-24 w-auto"
             />
