@@ -18,10 +18,68 @@ const blogPosts: BlogPost[] = [
     id: "1",
     title: "La leptina: el \"interruptor maestro\" del hambre y el metabolismo",
     description: "¿Sabías que tu hambre y tu metabolismo están controlados por una hormona llamada leptina? Puede que estés comiendo de más… ¡no por gula, sino porque tu cerebro no está recibiendo las señales correctas! En este artículo descubrirás cómo funciona la leptina, por qué puede fallar en personas con obesidad, qué consecuencias tiene tenerla demasiado baja, y cómo puedes mejorar su acción con simples hábitos diarios. Conoce el papel clave de esta \"hormona del hambre\" en tu salud, tu energía y tu peso corporal.",
-    imageUrl: "/lovable-uploads/4eabfea8-4026-41ed-81bc-b28b37a63549.png",
+    imageUrl: "https://iwzjemetiiiqflomwquh.supabase.co/storage/v1/object/public/images/leptina-blog-entrada1.png",
     videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    content: "El masaje terapéutico es una práctica ancestral que combina técnicas manuales específicas para aliviar tensiones, mejorar la circulación y promover la relajación profunda. Esta disciplina no solo aporta beneficios físicos, sino que también contribuye significativamente al bienestar mental y emocional. Los estudios científicos han demostrado que el masaje regular puede reducir los niveles de cortisol, la hormona del estrés, mientras aumenta la producción de endorfinas, conocidas como las hormonas de la felicidad."
-  },
+    content: "¿Qué es la Leptina y Cómo Funciona?
+La leptina es una hormona proteica secretada principalmente por los adipocitos (células grasas) del tejido adiposo blanco. Su función principal es "enviar señales al cerebro sobre las reservas de grasa en el cuerpo". Actúa fundamentalmente sobre el hipotálamo, una región cerebral que regula funciones vitales como el hambre, la sed, la temperatura corporal y el sueño.
+
+Cuando las reservas de grasa son suficientes, la leptina se libera en mayor cantidad, lo que indica al cerebro que "se puede reducir el apetito y aumentar el gasto energético". Por el contrario, "cuando hay poca grasa, la leptina disminuye y el cerebro responde con aumento del apetito y menor gasto energético", lo que es una estrategia ancestral para conservar energía en tiempos de escasez.
+
+Funciones Clave de la Leptina
+Aunque su rol más conocido es el de regulador del apetito, la leptina está implicada en diversas funciones fisiológicas esenciales:
+
+Regulación del Apetito: Se une a receptores en el hipotálamo, donde "inhibe la producción de neuropéptidos que estimulan el hambre" y "favorece los que promueven la saciedad", creando un equilibrio para mantener un peso corporal saludable.
+Gasto Energético: Niveles altos de leptina indican al cuerpo que hay suficiente energía, promoviendo "mayor actividad y termogénesis" (aumento del gasto calórico).
+Reproducción y Fertilidad: Influye en el eje hipotalámico-hipofisario-gonadal, siendo necesaria para la "ovulación y el funcionamiento menstrual en las mujeres, así como para la producción de testosterona en los hombres".
+Funciones Inmunológicas: Modula la actividad de células inmunes como macrófagos, linfocitos T y neutrófilos, favoreciendo una "respuesta inmune equilibrada". Niveles extremadamente bajos pueden comprometer la capacidad de luchar contra infecciones.
+Regulación del Sueño y el Estado de Ánimo: Se han relacionado niveles inadecuados de leptina con "trastornos del sueño y del estado de ánimo", influyendo en la calidad del sueño, los niveles de energía y la sensación de bienestar general.
+Leptina y Obesidad: El Problema de la Resistencia a la Leptina
+Paradójicamente, "muchas personas con obesidad presentan niveles elevados de leptina, pero no experimentan la supresión del apetito que debería producirse". Este fenómeno se conoce como resistencia a la leptina.
+
+En la resistencia a la leptina, el hipotálamo "deja de responder adecuadamente a la señal, como si el cerebro estuviera 'sordo' a su presencia". Esto conlleva a:
+
+Aumento del apetito.
+Disminución del gasto energético.
+Almacenamiento continuo de grasa.
+Factores que contribuyen a esta resistencia incluyen:
+
+"Dietas altas en azúcares refinados y grasas trans".
+"Inflamación crónica de bajo grado".
+"Estrés sostenido y falta de sueño".
+"Alteraciones hormonales".
+La resistencia a la leptina crea un "ciclo vicioso que perpetúa el sobrepeso", ya que a mayor grasa corporal, más leptina se produce, pero menos eficaz es su acción.
+
+Efectos de Niveles Bajos de Leptina
+Aunque menos común, los niveles bajos de leptina también tienen consecuencias significativas para la salud, observándose en personas con muy bajo porcentaje de grasa corporal, trastornos alimentarios como la anorexia nerviosa o ejercicio extremo. Los efectos incluyen:
+
+Amenorrea (ausencia de menstruación).
+Baja libido y alteración hormonal.
+Fatiga crónica.
+Disminución de la densidad ósea.
+Debilitamiento del sistema inmune.
+En estos casos, el cuerpo interpreta una escasez de energía y entra en "modo supervivencia".
+
+Control de la Leptina a Través de Hábitos Diarios
+Aunque la producción de leptina está ligada a la grasa corporal, el estilo de vida puede mejorar o empeorar la sensibilidad a esta hormona:
+
+Dieta Equilibrada: Reducir alimentos ultraprocesados, azúcares y grasas saturadas. Incluir fibra, omega-3, frutas, verduras y proteínas magras.
+Dormir Bien: La falta de sueño afecta negativamente la regulación de la leptina y aumenta la grelina. Dormir "entre 7 y 9 horas diarias mejora la respuesta leptínica".
+Ejercicio Físico: El ejercicio regular, tanto de fuerza como aeróbico, "mejora la sensibilidad a la leptina, incluso sin necesidad de perder mucho peso".
+Reducir el Estrés: El cortisol (hormona del estrés) puede interferir con la leptina. Prácticas como mindfulness, meditación y respiración profunda tienen un impacto positivo.
+Tratamientos y Terapias en Estudio
+La investigación sobre la leptina ha explorado terapias hormonales. Sin embargo, el uso de leptina como tratamiento para la obesidad no ha tenido éxito debido a la resistencia existente. Actualmente, se estudian alternativas como:
+
+Sensibilizadores de leptina.
+Combinación con otras hormonas (amilina o insulina).
+Terapias antiinflamatorias.
+La leptina recombinante ha sido exitosa en casos raros de deficiencia congénita de leptina.
+
+Conclusión: El Papel de la Leptina en la Salud Integral
+La leptina es "mucho más que una hormona del hambre". Es un "regulador maestro del equilibrio energético, con implicaciones en la reproducción, la inmunidad, el sueño y la salud metabólica en general".
+
+Es crucial entender que "lo más importante no es tanto cuánta leptina tenemos, sino cómo responde el cuerpo a ella". Tanto los niveles excesivos como los bajos pueden ser perjudiciales. Adoptar "hábitos de vida saludables es clave para mantener una buena sensibilidad a la leptina", lo que no solo ayuda a controlar el peso corporal sino también a prevenir enfermedades como la diabetes tipo 2, el síndrome metabólico y problemas cardiovasculares.
+
+Comprender la leptina nos ofrece una "visión más completa del cuerpo humano como un sistema integrado", donde el tejido graso es un "órgano endocrino activo que regula procesos esenciales para la vida", y no solo un almacén de energía.
   {
     id: "2", 
     title: "Técnicas de Relajación Natural",
