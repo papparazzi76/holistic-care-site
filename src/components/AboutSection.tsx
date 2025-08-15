@@ -7,7 +7,8 @@ import therapistImage from "@/assets/therapist-portrait.jpg";
 const certifications = [
   "Certificación en Quiromasaje Terapéutico",
   "Instructor Certificado de Pilates",
-  "Especialización en Terapias Naturales"
+  "Especialización en Terapias Naturales",
+  "Formación en Pilates para Tercera Edad"
 ];
 
 const values = [
