@@ -33,11 +33,11 @@ const services = [
     duration: "45 min"
   },
   {
-    icon: Leaf,
-    title: "Asesoría Natural",
-    description: "Consultoría personalizada en métodos naturales de cuidado personal y técnicas de autocuidado para el hogar.",
-    benefits: ["Métodos naturales", "Cuidado integral", "Prevención"],
-    duration: "30 min"
+    icon: Users,
+    title: "Clases de Pilates Online",
+    description: "Sesiones virtuales en vivo desde la comodidad de tu hogar, con atención personalizada y seguimiento individualizado.",
+    benefits: ["Desde casa", "Horarios flexibles", "Atención personalizada"],
+    duration: "50 min"
   },
   {
     icon: Target,
