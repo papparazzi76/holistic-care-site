@@ -2,7 +2,7 @@ import { Section } from "@/components/ui/section";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Heart, Sprout, Target } from "lucide-react";
-import therapistImage from "@/assets/therapist-portrait.jpg";
+
 
 const certifications = [
   "Certificación en Quiromasaje Terapéutico",
@@ -76,7 +76,7 @@ export const AboutSection = () => {
         <div className="space-y-8">
           <div className="relative">
             <img 
-              src={https://iwzjemetiiiqflomwquh.supabase.co/storage/v1/object/public/images/marta-rico-quiromasajista-titulada.jpeg} 
+              src="https://iwzjemetiiiqflomwquh.supabase.co/storage/v1/object/public/images/marta-rico-quiromasajista-titulada.jpeg" 
               alt="Terapeuta experta en quiromasaje y pilates en Madrid" 
               className="w-full h-[500px] object-cover rounded-3xl shadow-card"
             />
