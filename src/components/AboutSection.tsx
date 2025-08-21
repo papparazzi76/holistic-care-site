@@ -76,7 +76,7 @@ export const AboutSection = () => {
         <div className="space-y-8">
           <div className="relative">
             <img 
-              src={therapistImage} 
+              src={https://iwzjemetiiiqflomwquh.supabase.co/storage/v1/object/public/images/marta-rico-quiromasajista-titulada.jpeg} 
               alt="Terapeuta experta en quiromasaje y pilates en Madrid" 
               className="w-full h-[500px] object-cover rounded-3xl shadow-card"
             />
